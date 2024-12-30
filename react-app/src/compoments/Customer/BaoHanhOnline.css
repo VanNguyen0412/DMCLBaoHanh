@@ -1,0 +1,215 @@
+.customer {
+    margin: 10px;
+}
+
+.form-section {
+    padding: 7px;
+    border-radius: 7px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(231, 217, 217, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+}
+
+.large {
+    width: 520px;
+}
+
+.form-section label {
+    /* display: block; */
+    font-weight: bold;
+    /* margin-bottom: 5px; */
+    color: #003368;
+    width: 200px;
+    align-content: center;
+    text-transform: capitalize;
+}
+
+.form-section input[type="text"],
+.form-section input[type="date"],
+.form-section input[type="datetime-local"],
+.form-section input[type="number"],
+.form-section select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 3px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.cblabel {
+    margin-right: 30px !important;
+}
+
+.form-section .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-section .checkbox-group div {
+    margin-right: 20px;
+}
+
+/* Item Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: auto;
+}
+
+table th {
+    background-color: #003368;
+    color: #fff;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+/* Layout for Address Section */
+.address-group {
+    display: flex;
+    gap: 10px;
+}
+
+.address-group input {
+    flex: 1;
+}
+
+/* Add item button styling */
+.form-section button {
+    display: block;
+    background-color: #f4f7f9;
+    border: 1px solid #003368;
+    color: #003368;
+    padding: 10px;
+    margin: 5px 0;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.form-section button:hover {
+    background-color: #e0f2e9;
+    border-color: #003368;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.flexItem {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2px;
+
+}
+
+.form-section span {
+    color: #003368;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.small {
+    width: 50%;
+}
+
+.checkbox {
+    margin-bottom: 6px;
+    display: flex;
+}
+
+.check {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 5em;
+    margin-top: 5px;
+}
+
+.plus {
+    display: flex;
+}
+
+.plus button {
+    margin-left: 5px;
+    /* height: 25px; */
+    color: #003368;
+    padding: 3px;
+    /* align-items: center; */
+
+}
+
+.button {
+    justify-content: center;
+}
+
+.add button {
+    /* font-size: 16px; */
+    font-weight: bold;
+    border-radius: 3px;
+    /* width: 60px; */
+}
+
+.button button {
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    width: 120px;
+    padding: 7px;
+    margin-bottom: 5px;
+    background-color: #f4f7f9;
+    border: 1px solid #003368;
+    color: #003368;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #003368;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* Animation quay */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
